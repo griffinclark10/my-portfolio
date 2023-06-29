@@ -1,0 +1,17 @@
+.btn {
+    // margin: 0 10px;
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 3px solid #2badf8;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+
+    .icon {
+        color: #2badf8;
+        position: absolute;
+        
+    }
+  }
