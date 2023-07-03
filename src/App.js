@@ -5,9 +5,7 @@ import Home from './Billboard';
 
 function App() {
   return (
-      <Billboard>
-        <Home />
-      </Billboard>
+      <Billboard />
   );
 }
 

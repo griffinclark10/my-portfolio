@@ -19,7 +19,9 @@ const Billboard = () => {
     };  
     return (
         <div className="container">
-            <div className="black-box"></div>
+            <div className="black-box">
+                <Home/>
+            </div>
             <div className="bottom">
                 <div className='column'>
                     <ul>
