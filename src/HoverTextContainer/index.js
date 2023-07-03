@@ -1,13 +1,13 @@
 import './index.scss'
 
-const HoverTextContainer = ({ hoveredButton }) => {
+const HoverTextContainer = ({ showText }) => {
     return (
         <div className="text-container">
-            <p>Hovered button: {hoveredButton}</p>
-            {hoveredButton === null && <p>null</p>}
-            {hoveredButton === 1 && <p>Text for Button 1</p>}
-            {hoveredButton === 2 && <p>Text for Button 2</p>}
-            {hoveredButton === 3 && <p>Text for Button 3</p>}
+            {/* {showText === null && <p>null</p>} */}
+            {showText === 1 && <p>Take Me Home</p>}
+            {showText === 2 && <p>My Github</p>}
+            {showText === 3 && <p>My Linkedin</p>}
+            {showText === 4 && <p>My Resume</p>}
         </div>
     );
 };

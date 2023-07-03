@@ -2,20 +2,19 @@ import './index.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useState } from 'react';
 
-const LinkButton = ({ buttonID, onHover, icon, href }) => {
+const LinkButton = ({ buttonId, onMouseEnter, icon, href }) => {
 
     const [isHovered, setIsHovered] = useState(false);
-    console.log('initial buttonID: ' + {buttonID})
+    // console.log('initial buttonId: ' + buttonId)
     
     const handleMouseEnter = () => {
       setIsHovered(true);
-      onHover(buttonID, true); // Notify the parent component that this button is being hovered
-      console.log('buttonID: ' + {buttonID})
+      onMouseEnter(buttonId, true); // Notify the parent component that this button is being hovered
     };
   
     const handleMouseLeave = () => {
       setIsHovered(false);
-      onHover(buttonID, false); 
+      onMouseEnter(buttonId, false); 
     };
 
   return (
