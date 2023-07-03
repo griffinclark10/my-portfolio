@@ -1,0 +1,38 @@
+
+.home-button {
+    flex: 1;
+    border: 5px solid #2badf8;
+    border-bottom: none;
+    width: 15vh;
+    height: 100%;
+    margin: 0 5vh 0 5vh;
+    background: transparent;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-bottom: 20%;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 1vw #2badf8;
+
+    &:hover {
+        transform: scale(1.15);
+        box-shadow: 0 0 10vw #2badf8;
+      }
+
+    p {
+        padding-bottom: 20%;
+        color: #2badf8;
+        
+        &:hover {
+            text-shadow:0 0 3vw #2badf8;
+        }
+    }
+
+    .icon {
+        color: #2badf8;
+        height: 7vh;
+
+        &:hover {
+            text-shadow:0 0 3vw #2badf8;
+        }
+    }
+  }
