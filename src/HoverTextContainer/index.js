@@ -8,6 +8,7 @@ const HoverTextContainer = ({ showText }) => {
             {showText === 2 && <p>MY GITHUB</p>}
             {showText === 3 && <p>MY LINKEDIN</p>}
             {showText === 4 && <p>MY RESUME</p>}
+            {showText === 5 && <p>EMAIL ME</p>}
         </div>
     );
 };

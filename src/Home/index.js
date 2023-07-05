@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <>
             <div className='col-top'>
-                <div className='griffin'>______GRIFFIN_CLARK'S_______</div>
+                <div className='griffin'>_________GRIFFIN'S_ENGINEERING________</div>
                 <div className='portfolio'>____PORTFOLIO____</div>
             </div>
             <div className='col-bottom'>
