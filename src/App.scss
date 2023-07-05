@@ -1,3 +1,17 @@
+@import '../resources/fonts/JoystixMonospace-Regular/stylesheet';
+
+@font-face {
+  font-family: 'Designer Block';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Designer Block'), url('../resources/fonts/DesignerBlock/DESIB___.woff') format('woff');
+  }
+
+$blueish: #2badf8;
+$hotpink: #f433ff;
+
 body {
-  background: url('../resources/images/cyberpunk.jpg')
+  background: url('../resources/images/cyberpunk.jpg');
+  // font-family: 'Designer Block';
+  font-family: 'JoystixMonospace-Regular';
 }

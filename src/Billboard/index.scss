@@ -7,22 +7,23 @@ body {
 }
 
 .container {
-  width: 80vw;
-  height: 80vh;
+  width: 85vw;
+  height: 85vh;
   position: relative;
   overflow: hidden;
-  background-color: gray;
+  background-color: #43464B;
   z-index: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   border: 10px solid rgb(53, 50, 50);
   border-radius: 10px;
+  box-shadow: 0 0 1vw #2693d2, 0 0 3vw rgb(18, 126, 198), 0 0 10vw #321876, 0 0 10vw #2bf1f8, 0 0 .4vw #2bf8a9, .5vw .5vw .1vw #842bf8;
 }
 
 .black-box {
-  width: 70vw;
-  height: 60vh;
+  width: 75vw;
+  height:70vh;
   background-color: black;
   margin-top: 4%;
   position: relative;
@@ -31,12 +32,13 @@ body {
   flex-direction: column;
   align-items: center;
   overflow: hidden;
+  border-radius: 5px;
 }
 
 .black-box::before, .black-box::after {
   content: "";
   position: absolute;
-  background: gray; /* this should be the color of your page background */
+  background: #43464B; /* this should be the color of your page background */
   width: 100px; /* adjust this to change the size of the clipped corner */
   height: 100px;
 }
@@ -80,3 +82,34 @@ ul {
   min-width: 80%;
   // margin: 0 auto;
 }
+
+
+/* Metal ------------------------- */
+
+.metal {
+  position: relative;
+  outline: none;
+  
+  background-color: hsl(0,0%,90%);
+  box-shadow: inset hsla(0,0%,15%,  1) 0  0px 0px 4px, /* border */
+    inset hsla(0,0%,15%, .8) 0 -1px 5px 4px, /* soft SD */
+    inset hsla(0,0%,0%, .25) 0 -1px 0px 7px, /* bottom SD */
+    inset hsla(0,0%,100%,.7) 0  2px 1px 7px, /* top HL */
+    
+    hsla(0,0%, 0%,.15) 0 -5px 6px 4px, /* outer SD */
+    hsla(0,0%,100%,.5) 0  5px 6px 4px; /* outer HL */ 
+}
+
+/* Linear ------------------------- */
+
+.metal.linear {
+  border-radius: .5em;
+  background-image: -webkit-repeating-linear-gradient(left, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0)   6%, hsla(0,0%,100%, .1) 7.5%),
+    -webkit-repeating-linear-gradient(left, hsla(0,0%,  0%,0) 0%, hsla(0,0%,  0%,0)   4%, hsla(0,0%,  0%,.03) 4.5%),
+    -webkit-repeating-linear-gradient(left, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0) 1.2%, hsla(0,0%,100%,.15) 2.2%),
+    linear-gradient(180deg, hsl(0,0%,78%)  0%, 
+    hsl(0,0%,90%) 47%, 
+    hsl(0,0%,78%) 53%,
+    hsl(0,0%,70%)100%);
+}
+

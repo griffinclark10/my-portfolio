@@ -2,10 +2,15 @@
     background-color: black;
     height: 50%;
     width: 80%;
+    border-radius: 5px;
     align-items: center;
+    justify-content: center;
+    display: flex;
 
     p {
-        color: white;
+        color: #f433ff;
+        font-size: x-large;
+        font-family: 'JoystixMonospace-Regular';
     }
   }
 

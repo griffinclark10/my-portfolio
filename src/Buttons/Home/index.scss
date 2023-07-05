@@ -4,7 +4,7 @@
     border: 5px solid #2badf8;
     border-bottom: none;
     width: 15vh;
-    height: 100%;
+    height: 90%;
     margin: 0 5vh 0 5vh;
     background: transparent;
     border-top-left-radius: 10px;
@@ -12,6 +12,9 @@
     padding-bottom: 20%;
     transition: transform 0.3s ease-in-out;
     box-shadow: 0 0 1vw #2badf8;
+    // font-family: 'Designer Block';
+    font-family: 'JoystixMonospace-Regular';
+    overflow: inherit;
 
     &:hover {
         transform: scale(1.15);
@@ -21,6 +24,7 @@
     p {
         padding-bottom: 20%;
         color: #2badf8;
+        font-size: x-small;
         
         &:hover {
             text-shadow:0 0 3vw #2badf8;
