@@ -1,6 +1,7 @@
 import './index.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useState } from 'react';
+import { Link } from 'react-router-dom'
 
 const LinkButton = ({ buttonId, onMouseEnter, icon, href }) => {
 
@@ -18,13 +19,15 @@ const LinkButton = ({ buttonId, onMouseEnter, icon, href }) => {
     };
 
   return (
-        <button className="btn"
-            href={href}
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
-    >
-      <FontAwesomeIcon icon={icon} className='icon'/>
-    </button>
+    <Link to={href} >
+      <button className="btn"
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+      >
+        <FontAwesomeIcon icon={icon} className='icon'/>
+      </button>
+    </Link>
+        
   );
 };
 

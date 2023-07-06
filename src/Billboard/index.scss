@@ -32,6 +32,7 @@ body {
   align-items: center;
   overflow: hidden;
   border-radius: 5px;
+  border:rgb(18, 126, 198) 3px solid;
 }
 
 .bb-row {
@@ -42,25 +43,25 @@ body {
   flex-direction: center;
 }
 
-.black-box::before, .black-box::after {
-  content: "";
-  position: absolute;
-  background: #43464B; /* this should be the color of your page background */
-  width: 100px; /* adjust this to change the size of the clipped corner */
-  height: 100px;
-}
+// .black-box::before, .black-box::after {
+//   content: "";
+//   position: absolute;
+//   background: #43464B; /* this should be the color of your page background */
+//   width: 100px; /* adjust this to change the size of the clipped corner */
+//   height: 100px;
+// }
 
-.black-box::before {
-  top: 0;
-  left: 0;
-  transform: translateX(-50%) translateY(-50%) rotate(45deg);
-}
+// .black-box::before {
+//   top: 5px;
+//   left: 0;
+//   transform: translateX(-50%) translateY(-50%) rotate(45deg);
+// }
 
-.black-box::after {
-  bottom: 0;
-  right: 0;
-  transform: translateX(50%) translateY(50%) rotate(45deg);
-}
+// .black-box::after {
+//   bottom: 35px;
+//   right: 0;
+//   transform: translateX(50%) translateY(50%) rotate(45deg);
+// }
 
 .bottom {
   width: 70vw;

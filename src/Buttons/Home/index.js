@@ -1,12 +1,15 @@
 import './index.scss'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from 'react-router-dom';
 
-const HomeButton = ({ icon, text }) => {
+const HomeButton = ({ icon, text, href }) => {
     return (
-        <button className="home-button">
-            <p className="btn-text">{ text }</p>
-            <FontAwesomeIcon icon={icon} className="icon" />
-        </button>
+        <Link to={href} >
+            <button className="home-button">
+                <p className="btn-text">{ text }</p>
+                <FontAwesomeIcon icon={icon} className="icon" />
+            </button>
+        </Link>
     );
 };
 
