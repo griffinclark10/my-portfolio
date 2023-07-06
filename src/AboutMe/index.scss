@@ -64,3 +64,11 @@ p {
 .img-left {
     margin-top: -25%;
 }
+
+.img-final {
+    width: 60%;
+    border-radius: 5%;
+    border: 5px solid rgb(52, 51, 51);
+    margin-top: -10%;
+    z-index: -1;
+}
