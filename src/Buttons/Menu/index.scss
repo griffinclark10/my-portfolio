@@ -1,0 +1,19 @@
+.menu-btn {
+    position: absolute;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #2badf8 !important;
+    border: 3px solid #2badf8;
+    justify-content: center;
+    align-items: center;
+    bottom: -10px;
+    
+    .icon {
+        color: black !important;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+    }
+}

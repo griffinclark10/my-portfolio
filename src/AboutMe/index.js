@@ -10,12 +10,16 @@ import toronto from './images/toronto.png'
 import vancouver from './images/vancouver.png'
 import { ScrollSync } from 'react-scroll-sync';
 import { ScrollSyncPane } from 'react-scroll-sync';
+import MenuButton from '../Buttons/Menu';
 
 
 const AboutMe = () => {
     return (
         <ScrollSync>
             <div className="black-box bb-col">
+                <div className='menu'>
+                    <MenuButton />
+                </div>
                 <ScrollSyncPane>
                     <div className='about-column left'>
                         <h1>Griffin Clark</h1>
