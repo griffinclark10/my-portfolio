@@ -30,28 +30,28 @@ h3 {
 
 .bb-experience li {
     color: white;
-    width: 95%;
+    width: 90%;
     text-indent: -1em;
     padding-left: 2em;
 
     &::before {
-        content: "*";
+        content: '';
         display: inline-block;
         width: 1em;
     }
-}
 
-.typing {
-    overflow: hidden;
-    white-space: nowrap;
-    animation: typing-animation 2s steps(40, end);
+    &:not(:empty)::before {
+        content: '*';
+      }
+    
   }
   
-  @keyframes typing-animation {
-    from {
-      width: 0;
-    }
-    to {
-      width: 100%;
-    }
-  }
+//   .bb-experience li::before {
+//     content: '';
+//     display: inline-block;
+//     width: 1em;
+//   }
+  
+//   .bb-experience li:not(:empty)::before {
+//     content: '*';
+//   }
