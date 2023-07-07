@@ -45,6 +45,10 @@ const Experience = () => {
     const list32 = "Quickly adapted to unfamiliar hydrodynamic modelling software such as GIZMO, yt and DICE.";
     const list33 = "Leveraged python fluency to analyze data coming from the models, as well as teaching the language to high school students.";
 
+    const list41 = "Improved assignment grades of 30+ students a week through a weekly three-hour virtual help session held for students.";
+    const list42 = "Facilitated the marking of 150+ weekly assignments, relaying marks to students within 2 days of submission.";
+    const list43 = "Resolved assignment and course material questions through personal Zoom problem solving meetings with students by request.";
+
     const text1 = useTypewriter("Professional Experience", 20, 0);
     const text2 = useTypewriter("Software Engineer", 20, 460);
     const text3 = useTypewriter("Dealsourcing", 20, 460);
@@ -70,11 +74,19 @@ const Experience = () => {
     const text21 = useTypewriter(list32, 2, 4000);
     const text22 = useTypewriter(list33, 2, 4250);
 
+    const text23 = useTypewriter("Research Intern", 20, 4500);
+    const text24 = useTypewriter("Queen's University", 20, 4500);
+    const text25 = useTypewriter("September 2020 - January 2022", 20, 4500);
+    const text26 = useTypewriter("Kingston, ON", 20, 4500);
+    const text27 = useTypewriter(list41, 2, 4750);
+    const text28 = useTypewriter(list42, 2, 5000);
+    const text29 = useTypewriter(list43, 2, 5250);
+
     return (
         <ScrollSync>
             <div className='black-box bb-experience'>
                 <h1 className='title'>{text1}</h1>
-                <div className='divider-horizontal' />
+                {/* <div className='divider-horizontal' /> */}
                 <div className='separation-col'>
                     <h2>{text2}</h2>
                     <h2>{text3}</h2>
@@ -115,6 +127,20 @@ const Experience = () => {
                     <li>{text20}</li>
                     <li>{text21}</li>
                     <li>{text22}</li>
+                </ul>
+                <div className='divider-horizontal' />
+                <div className='separation-col'>
+                    <h2>{text23}</h2>
+                    <h2>{text24}</h2>
+                </div>
+                <div className='separation-col'>
+                    <h3>{text25}</h3>
+                    <h3>{text26}</h3>
+                </div>
+                <ul>
+                    <li>{text27}</li>
+                    <li>{text28}</li>
+                    <li>{text29}</li>
                 </ul>
             </div>
 
