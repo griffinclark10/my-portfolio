@@ -16,14 +16,22 @@ body {
   font-family: 'JoystixMonospace-Regular';
 }
 
-p {
+h1, h2, h3, p {
   color: white;
+  display: flex;
 }
 
-h1 {
-  color: white;
-}
+// h1 {
+//   color: white;
+//   display: flex;
+// }
 
-h2 {
-  color: white;
-}
+// h2 {
+//   color: white;
+//   display: flex;
+// }
+
+// h3 {
+//   color: white;
+//   display: flex;
+// }

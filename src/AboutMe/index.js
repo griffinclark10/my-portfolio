@@ -16,7 +16,7 @@ import MenuButton from '../Buttons/Menu';
 const AboutMe = () => {
     return (
         <ScrollSync>
-            <div className="black-box bb-col">
+            <div className="black-box bb-about">
                 <div className='menu'>
                     <MenuButton />
                 </div>

@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Billboard from './Billboard';
 import Home from './Home/index.js'
 import AboutMe from './AboutMe/index.js'
+import Experience from './Experience';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Billboard page={<Home />} />} />  
         <Route path="about-me" element={<Billboard page={<AboutMe />} />} />  
+        <Route path="experience" element={<Billboard page={<Experience />} />} />  
       </Routes>
     </Router>
       

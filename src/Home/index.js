@@ -4,9 +4,9 @@ import { faBriefcase, faLaptopCode, faPersonRays } from '@fortawesome/free-solid
 
 const Home = () => {
     return (
-        <div className='black-box bb-row'>
+        <div className='black-box bb-home'>
             <div className='col-top'>
-                <div className='griffin'>_________GRIFFIN'S_ENGINEERING________</div>
+                <div className='griffin'>_________GRIFFIN'S_ENGINEERING_________</div>
                 <div className='portfolio'>____PORTFOLIO____</div>
             </div>
             <div className='col-bottom'>
