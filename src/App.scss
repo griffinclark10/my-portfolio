@@ -10,6 +10,12 @@
 $blueish: #2badf8;
 $hotpink: #f433ff;
 
+$bsec: #88cdf5;
+$psec: #f799fc;
+
+$bthird: #1b6d9d;
+
+
 body {
   background: url('../resources/images/cyberpunk.jpg');
   // font-family: 'Designer Block';
@@ -21,17 +27,6 @@ h1, h2, h3, p {
   display: flex;
 }
 
-// h1 {
-//   color: white;
-//   display: flex;
-// }
-
-// h2 {
-//   color: white;
-//   display: flex;
-// }
-
-// h3 {
-//   color: white;
-//   display: flex;
-// }
+span {
+  display: inline;
+}

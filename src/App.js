@@ -5,6 +5,7 @@ import Billboard from './Billboard';
 import Home from './Home/index.js'
 import AboutMe from './AboutMe/index.js'
 import Experience from './Experience';
+import Projects from './Projects';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Billboard page={<Home />} />} />  
         <Route path="about-me" element={<Billboard page={<AboutMe />} />} />  
-        <Route path="experience" element={<Billboard page={<Experience />} />} />  
+        <Route path="experience" element={<Billboard page={<Experience />} />} /> 
+        <Route path="projects" element={<Billboard page={<Projects />} />} />
       </Routes>
     </Router>
       
