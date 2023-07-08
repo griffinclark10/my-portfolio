@@ -1,0 +1,49 @@
+.bb-project p {
+    display: inline;
+}
+
+.bb-project .about-column.right {
+    margin-right: 1% !important;
+    margin-left: 0;
+}
+
+.bb-project .about-column.left {
+    margin-right: 0 !important;
+}
+
+.bb-project ul {
+    width: 100%;
+    list-style-type: none;
+}
+
+.bb-project li {
+    font-size: small;
+    color: white;
+    width: 90%;
+    text-indent: -1em;
+    padding-left: 2em;
+
+    &::before {
+        content: '';
+        display: inline-block;
+        width: 1em;
+    }
+
+    &:not(:empty)::before {
+        content: '*';
+      }
+    
+  }
+
+  span.blue {
+    color: #88cdf5;
+  }
+  
+  span.pink {
+    color: #f799fc;
+  }
+
+.project-btns {
+    display: inline;
+    width: 100%;
+}
