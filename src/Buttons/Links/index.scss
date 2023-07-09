@@ -8,11 +8,17 @@
     background-color: black;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 0 25px #2badf8;
 
     .icon {
         color: #2badf8;
         position: absolute;
         width: 20px;
         height: 20px;
+
+        &:hover{
+            transform: scale(1.2);  /* increases the size of the icon to 120% */
+            transition: transform 0.2s ease; 
+        }
     }
   }

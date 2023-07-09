@@ -101,7 +101,7 @@ const Projects = () => {
                     <h3>Software Engineer</h3>
                     <div className='project-btn-text space'>
                         <h2> <FontAwesomeIcon icon={faJs} color={'#F0DB4Fw'} /> &ensp;  <FontAwesomeIcon icon={faReact} color={'#61DBFB'} /> &ensp; <FontAwesomeIcon icon={faHtml5} color={'#F16529'} /> &ensp; <FontAwesomeIcon icon={faCss3} color={'#E31B5F'} /> </h2>
-                        <ProjectButton href='#' icon={faGithub} color="pink" />
+                        <ProjectButton href='https://github.com/griffinclark10/my-portfolio' icon={faGithub} color="pink" />
                     </div>
                     <p>This website was built from scratch using Javascript and React and completely styled in Css3 as to ameliorate my styling knowledge and skills. I hope you have enjoyed it :).</p>
                 </div>    
