@@ -5,7 +5,7 @@ import './index.scss'
 const ProjectButton = ({ href, icon, color }) => {
     const cName = 'project-button ' + color;
     return (
-        <Link to={href}>
+        <Link to={href} target="blank">
             <button className={cName}>
                 <FontAwesomeIcon icon={icon}/>
             </button>

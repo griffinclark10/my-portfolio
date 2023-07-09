@@ -30,17 +30,17 @@ const AboutMe = () => {
                 
                 <div className='divider' />
                 <ScrollSyncPane>
-                <div className='about-column right'>
-                    <img src={ring} className='portrait' alt='Iron Ring'/>
-                    <img src={hagiang} className='portrait img-right' alt='Ha Giang Loop' style={{ zIndex: 1 }}/>
-                    <img src={field} className='portrait img-left' alt='Alberta'/>
-                    <img src={group} className='landscape' alt='Queens University'/>
-                    <img src={peru} className='portrait img-left' alt='Machu Picchu'/>
-                    <img src={elephants} className='portrait img-right' alt='Elephants in Thailand' style={{ zIndex: 1 }} />
-                    <img src={tofino} className='portrait img-left' alt='Tofino'/>
-                    <img src={toronto} className='portrait img-right' alt='CN Tower' />
-                    <img src={vancouver} className='img-final' alt='Ghiribaldi National Park' />
-                </div>
+                    <div className='about-column right'>
+                        <img src={ring} className='portrait' alt='Iron Ring'/>
+                        <img src={hagiang} className='portrait img-right' alt='Ha Giang Loop' style={{ zIndex: 1 }}/>
+                        <img src={field} className='portrait img-left' alt='Alberta'/>
+                        <img src={group} className='landscape' alt='Queens University'/>
+                        <img src={peru} className='portrait img-left' alt='Machu Picchu'/>
+                        <img src={elephants} className='portrait img-right' alt='Elephants in Thailand' style={{ zIndex: 1 }} />
+                        <img src={tofino} className='portrait img-left' alt='Tofino'/>
+                        <img src={toronto} className='portrait img-right' alt='CN Tower' />
+                        <img src={vancouver} className='img-final' alt='Ghiribaldi National Park' />
+                    </div>
                 </ScrollSyncPane>
             </div>
         </ScrollSync>

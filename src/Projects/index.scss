@@ -1,3 +1,14 @@
+.full-width {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.project-title{
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
 .bb-project p {
     display: inline;
 }
@@ -31,19 +42,78 @@
 
     &:not(:empty)::before {
         content: '*';
-      }
-    
-  }
+        }
 
-  span.blue {
-    color: #88cdf5;
-  }
-  
-  span.pink {
-    color: #f799fc;
-  }
+}
+
+span.blue {
+color: #88cdf5;
+display: inline;
+}
+
+span.pink {
+color: #f799fc;
+display: inline;
+}
 
 .project-btns {
     display: inline;
     width: 100%;
+}
+
+.project-btn-text {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;  /* Vertically center the items */
+    justify-content: space-between;  /* Distribute items evenly, with maximum space in between */
+    gap: 10px;  /* Space between items, adjust as needed */
+
+    &.space {
+        margin-left: 20px;
+    }
+}
+
+.project-text {
+    width: 50%;
+    margin-right: 0;
+}
+
+.project-images {
+    max-width: 90%;
+    border-radius: 10px;
+    border: 5px solid rgb(52, 51, 51);
+
+    &:nth-child(1){
+        z-index: -1;
+        width: 80%
+    }
+
+    &:nth-child(2){
+        width: 80%;
+        margin-top: -10%;
+        margin-left: 20%;
+    }
+
+    &:nth-child(3){
+        width: 40%;
+        margin-top: 15%;
+    }
+
+    &:nth-child(4){
+        width: 40%;
+        margin-top: -75%;
+        margin-left: 50%;
+    }
+
+    &:nth-child(5){
+        width: 80%;
+        margin-top: 15%;
+        z-index: -1;
+    }
+
+    &:nth-child(6){
+        width: 80%;
+        margin-left: 20%;
+        margin-top: -5%;
+    }
 }
