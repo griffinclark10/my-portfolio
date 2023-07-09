@@ -39,7 +39,7 @@ const Experience = () => {
     
     const list21 = "Oversaw the technical and asset acquisition for a small Startup, including working with GitHub, AWS RDS, Stripe, Namecheap, and Heroku.";
     const list22 = "Delivered weekly updates to the board on progress and demonstrated dedication to completing work in a timely manner."
-    const list23 = "Served the mid-size company as an in house techincal consultant, often fixing bugs & domain issues, and implementing page redesigns using Wordpress, Hubspot, and Namecheap."
+    const list23 = "Served the mid-size company as an in house technical consultant, often fixing bugs & domain issues, and implementing page redesigns using Wordpress, Hubspot, and Namecheap."
 
     const list31 = "Advanced research in dark matter through the complex mathematical modelling of stellar and galactic formations with the use of the Queen’s supercomputer server.";
     const list32 = "Quickly adapted to unfamiliar hydrodynamic modelling software such as GIZMO, yt and DICE.";

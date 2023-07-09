@@ -11,6 +11,9 @@ import queuehop1 from './images/queuehop1.png';
 import queuehop2 from './images/queuehop2.png';
 import thesis1 from './images/thesis1.png';
 import thesis2 from './images/thesis2.png';
+import queueHopPdf from './documents/QueueHop.pdf';
+import helpingHandPdf from './documents/HelpingHand.pdf';
+import thesisPdf from './documents/ENPH455FinalReport.pdf';
 import './index.scss'
 
 const Projects = () => {
@@ -56,7 +59,7 @@ const Projects = () => {
                             <h3>Lead App Developper / AI Engineer</h3>
                             <h2 className='icons'><FontAwesomeIcon icon={faPython} color={'#4B8BBE'} /> &ensp; <FontAwesomeIcon icon={faJs} color={'#F0DB4Fw'} /> &ensp;  <FontAwesomeIcon icon={faReact} color={'#61DBFB'} /> &ensp; <FontAwesomeIcon icon={faHtml5} color={'#F16529'} /> &ensp; <FontAwesomeIcon icon={faCss3} color={'#E31B5F'} /> </h2>
                             <div className='project-btns'>
-                                <ProjectButton href='#' icon={faFilePdf} color="blue" />
+                                <ProjectButton href={queueHopPdf} icon={faFilePdf} color="blue" />
                                 <ProjectButton href='https://github.com/Jonah1234567/QueueHop' icon={faGithub} color="pink" />
                             </div>
                             <p>Queue Hop was a capstone project completed by me and 4 other software minded engineering physics students. The goal of this project was to estimate the wait time that it would take to get into the engineering bar on Queen's campus, a bar with a famously long wait. My role on the team was leading the app development, using <span className="blue">Javascript</span> and <span className="blue">React Native</span> for app design and <span className="pink">google sheets api</span> for data transmission. I also helped with developping the <span className="blue">P2P-Net in Python</span> model used to count the number of people in line and give a time estimate. This project was sucessful and gained us an A+ in the class.  </p>
@@ -67,7 +70,7 @@ const Projects = () => {
                             <h3>Research Student</h3>
                             <div className='project-btn-text'>
                             <h2 className='icons'><FontAwesomeIcon icon={faPython} color={'#4B8BBE'} /> &ensp; <FontAwesomeIcon icon={faUbuntu} color={'#E95420'} /> &ensp;  <FontAwesomeIcon icon={faLinux} color={'white'} /> &ensp;  </h2>
-                                <ProjectButton href='./documents/ENPH455FinalReport.pdf' icon={faFilePdf} color="blue" />
+                                <ProjectButton href={thesisPdf} icon={faFilePdf} color="blue" />
                             </div>
                             <p>My undergraduate thesis was completed as a student under Dr. Zulkernine with the BAMLAB and Queen's University. This goal of this research was to extend research on cooperative perception for autonomous vehicles. Autonomous vehicles require a holistic view of their surroundings to ensure maximal safety and efficacy. The idea is to use data from surrounding vehicles to build this view. The goal of this research was to implement intermediate feature fusion on the <span className="pink">DAIR-V2X</span> dataset. To achieve this, I used a large <span className="blue">Python</span> program using mainly <span className="blue">pypcd</span> and <span className="blue">mmdet3d</span> libraries on the <span className="pink">CUDA</span> software. The programs were run on a virtual <span className="pink">linux</span> machine and generated positive results (see paper) earning me an A in my defense.</p>
                             </div>
@@ -91,7 +94,7 @@ const Projects = () => {
                     <h3>AI/ML Engineer</h3>
                     <div className='project-btn-text space'>
                         <h2 className='icons'><FontAwesomeIcon icon={faPython} color={'#4B8BBE'} /> &ensp; <FontAwesomeIcon icon={faHtml5} color={'#F16529'} /> &ensp; <FontAwesomeIcon icon={faCss3} color={'#E31B5F'} /> </h2>
-                        <ProjectButton href='#' icon={faFilePdf} color="blue" />
+                        <ProjectButton href={helpingHandPdf} icon={faFilePdf} color="blue" />
                     </div>
                     <p>Another QMIND project, this time using computer vision to detect and translate letters in ASL. In this project, we used the sing language MNIST database to train a model witten in Python's Keras and OpenCV train and test this dataset. We also developped a interface using HTML and CSS that would use a computer's live feed to translate letters in real time. The reult was a model with a 93% accuracy and a paper that won "Best paper" at the Canadian Undergraduate conference on AI judged by professors and industry professionals.</p>
 

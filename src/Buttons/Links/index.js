@@ -2,6 +2,7 @@ import './index.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useState } from 'react';
 import { Link } from 'react-router-dom'
+import { faHome } from '@fortawesome/free-solid-svg-icons';
 
 const LinkButton = ({ buttonId, onMouseEnter, icon, href}) => {
 
@@ -21,7 +22,7 @@ const LinkButton = ({ buttonId, onMouseEnter, icon, href}) => {
   
 
   return (
-    <Link to={href} >
+    <Link to={href} target={icon == faHome ? '' : '_blank'}>
       <button className='btn'
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
