@@ -17,9 +17,9 @@ const AboutMe = () => {
     return (
         <ScrollSync>
             <div className="black-box bb-about">
-                <div className='menu'>
+                {/* <div className='menu'>
                     <MenuButton />
-                </div>
+                </div> */}
                 <ScrollSyncPane>
                     <div className='about-column left'>
                         <h1>Griffin Clark</h1>

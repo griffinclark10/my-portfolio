@@ -74,7 +74,7 @@ const Experience = () => {
     const text21 = useTypewriter(list32, 2, 4000);
     const text22 = useTypewriter(list33, 2, 4250);
 
-    const text23 = useTypewriter("Research Intern", 20, 4500);
+    const text23 = useTypewriter("Engineering Teaching Assistant", 20, 4500);
     const text24 = useTypewriter("Queen's University", 20, 4500);
     const text25 = useTypewriter("September 2020 - January 2022", 20, 4500);
     const text26 = useTypewriter("Kingston, ON", 20, 4500);
