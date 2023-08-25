@@ -50,9 +50,9 @@ const Experience = () => {
     const list43 = "Resolved assignment and course material questions through personal Zoom problem solving meetings with students by request.";
 
     const text1 = useTypewriter("Professional Experience", 20, 0);
-    const text2 = useTypewriter("Software Engineer", 20, 460);
+    const text2 = useTypewriter("Full Stack Engineer", 20, 460);
     const text3 = useTypewriter("Dealsourcing", 20, 460);
-    const text4 = useTypewriter("Jan 2022 - Mar 2023", 20, 800);
+    const text4 = useTypewriter("Jan 2022 - May 2023", 20, 800);
     const text5 = useTypewriter("Vancouver, BC", 20, 800);
     const text6 = useTypewriter(list11, 2, 1180);
     const text7 = useTypewriter(list12, 2, 1590);

@@ -25,8 +25,6 @@ const Billboard = ({page}) => {
     return (
         <div className="container">
             {page}
-            {/* <AboutMe/>
-            <Home/> */}
             <div className="bottom">
                 <div className='column'>
                     <ul>
