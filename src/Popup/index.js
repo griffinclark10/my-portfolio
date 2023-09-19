@@ -17,7 +17,7 @@ const Popup = () => {
   return (
       <div className="popup-overlay">
           <div className="popup-content">
-                <p>Want to check out my new & improved portfolio?</p>
+                <p>Want to check out my super duper cool new & improved portfolio?</p>
               <div className="buttons">
                   <a className="b1" href="https://chat-gsc-af573a9b986a.herokuapp.com/">Duh!</a>
                   {/* <div className="divider" /> */}
