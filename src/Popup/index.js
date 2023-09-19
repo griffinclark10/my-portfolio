@@ -19,7 +19,7 @@ const Popup = () => {
           <div className="popup-content">
                 <p>Want to check out my super duper cool new & improved portfolio?</p>
               <div className="buttons">
-                  <a className="b1" href="https://chat-gsc-af573a9b986a.herokuapp.com/">Duh!</a>
+                  <a className="b1" href="https://chatgsc.com">Duh!</a>
                   {/* <div className="divider" /> */}
                   <a className="b2" onClick={handleStay}>Meh</a>  
               </div>
