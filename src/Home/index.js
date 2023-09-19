@@ -6,7 +6,7 @@ import Popup from '../Popup'
 const Home = () => {
     return (
         <div className='black-box bb-home'>
-            <Popup onStay={() => console.log('stay')} onGo={() => console.log('go')} />
+            <Popup />
             <div className='col-top'>
                 <div className='griffin'>_________GRIFFIN'S_ENGINEERING_________</div>
                 <div className='portfolio'>____PORTFOLIO____</div>

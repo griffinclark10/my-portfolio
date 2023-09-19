@@ -1,7 +1,7 @@
 import "./index.scss";
 import React, { useState, useEffect } from 'react';
 
-const Popup = ({ onStay, onGo }) => {
+const Popup = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
@@ -10,7 +10,6 @@ const Popup = ({ onStay, onGo }) => {
 
   const handleStay = () => {
     setIsOpen(false);
-    onStay && onStay();
   };
 
   if (!isOpen) return null;
